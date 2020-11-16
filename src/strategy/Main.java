@@ -9,6 +9,5 @@ public class Main {
         QuadraticEquationSolver realResolver = new QuadraticEquationSolver(new RealDiscriminantStrategy());
         System.out.println(realResolver.solve(4, 3, 2));
         System.out.println(realResolver.solve(4, 9, 2));
-
     }
 }
